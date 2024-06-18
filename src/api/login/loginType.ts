@@ -1,5 +1,5 @@
 // 登录校验规则
-export type loginParamsType = {
+export interface loginParamsType  {
     password: string
     username: string
   }
